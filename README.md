@@ -1,2 +1,2 @@
 # K-Means
-K-Means algorithm implementation in Java. Project of "Metodi Avanzati di Programmazione" exam @ UniBa.
+K-Means algorithm implementation in Java for "Metodi Avanzati di Programmazione" exam @ UniBa 2022-2023.
