@@ -49,17 +49,17 @@ public class ClusterSet implements Serializable {
     }
 
     Cluster currentCluster(int id) {
-        for (int i = 0; i < C.length; i++) {
-            if (C[i].contain(id)) {
-                return C[i];
+        for (Cluster cluster : C) {
+            if (cluster.contain(id)) {
+                return cluster;
             }
         }
         return null;
     }
 
     void updateCentroids(Data data) {
-        for (int i = 0; i < C.length; i++) {
-            C[i].computeCentroid(data);
+        for (Cluster cluster : C) {
+            cluster.computeCentroid(data);
         }
     }
 

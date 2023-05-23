@@ -70,7 +70,7 @@ class MainTest {
               isNotValid = false;
             }
           }
-          case 1044 -> {
+          case 1049 -> {
             if (getInput("Database non esistente. Riprovare (y) o tornare al menu (n)?")) {
               database = null;
             } else {

@@ -261,7 +261,7 @@ public class Data {
     return prototype;
   }
 
-  public Object computePrototype(Set<Integer> idList, Attribute attribute) {
+  Object computePrototype(Set<Integer> idList, Attribute attribute) {
     if (attribute instanceof ContinuousAttribute) {
       return computePrototype(idList, (ContinuousAttribute) attribute);
     }

@@ -59,7 +59,7 @@ class Cluster implements Serializable {
         for (int i = 0; i < centroid.getLength(); i++)
             str += centroid.get(i) + " ";
         str += ")\nExamples:\n";
-        for (int i = 0; i < clusteredData.size(); i++) {
+        for (int i:clusteredData) {
             str += "[";
             for (int j = 0; j < data.getNumberOfAttributes(); j++)
                 str += data.getAttributeValue((Integer) i, j) + " ";
